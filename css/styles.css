@@ -1,0 +1,118 @@
+.wrapper {
+  background-image: linear-gradient(to bottom right,#000000,#10191d);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#wrapper.gradient {
+}
+
+#social li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  float: left;
+}
+li.fb {
+  background: url('../img/on-facebook.png') no-repeat;
+  /*background-color: #265999;
+  */height: 41px;
+  width: 41px;;
+}
+li.twitter {
+  background: url('../img/on-twitter.png')no-repeat;
+/*  background-color: #00b0ef;
+*/  margin-left:13px;
+  height: 41px;
+  width: 41px;
+}
+li.linkedin {
+  background: url('../img/on-linkedin.png')no-repeat;
+/*  background-color: #0082b2;  
+*/  margin-left:13px;
+  height: 41px;
+  width: 41px;
+}
+.red {
+  background-color: red;
+}
+
+.joc {
+  background:url('../img/Jocelyn-BG.png') no-repeat bottom right;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  background-image: url('../img/lrg-logo.png');
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 98px;
+  width: 279px;
+}
+.footer {
+  font-size: .7em;
+  background-color: #293439;
+  padding-right: 40px;
+  padding-top: 10px;
+  height: 36px;
+  text-align: right;
+  position: fixed;
+  bottom:0%;
+  width:100%;
+}
+
+// Small screens
+@media only screen { 
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+.invoiceHeader {
+  height: 200px;
+  background-image: url('../img/amass-2-BG.png');
+  background-repeat: no-repeat;
+}
+  } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.invoiceHeader {
+  height: 200px;
+  background-image: url('../img/amass-2-BG.png');
+  background-repeat: no-repeat;
+}
+ } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+.invoiceHeader {
+  height: 200px;
+  background-image: url('../img/amass-3-BG.png');
+  background-repeat: no-repeat;
+}
+  } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+
+.invoiceHeader {
+  width: 320px;
+  height: 200px;
+  background-image: url('../img/amass-1-BG.png');
+  background-repeat: no-repeat;
+}
